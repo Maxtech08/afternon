@@ -1,1 +1,17 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="289" x="414" y="29">
+    <next>
+      <block type="oled_color" id="299">
+        <field name="OBJECT">GREEN</field>
+        <next>
+          <block type="oled_drawtext" id="309">
+            <field name="TEXT">hello world</field>
+            <next>
+              <block type="movement_stop" id="319"></block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
