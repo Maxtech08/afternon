@@ -1,3 +1,40 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_stop" id="329" x="337" y="104"></block>
+  <block type="controls_if" id="393" inline="false" x="376" y="3">
+    <value name="IF0">
+      <block type="sensor_button" id="403">
+        <field name="OBJECT">UP</field>
+      </block>
+    </value>
+    <next>
+      <block type="oled_cleardisplay" id="419">
+        <next>
+          <block type="oled_color" id="444">
+            <field name="OBJECT">GREEN</field>
+            <next>
+              <block type="oled_linerect" id="453">
+                <field name="OBJECT">LINE</field>
+                <next>
+                  <block type="oled_drawtext" id="475">
+                    <field name="TEXT">hello</field>
+                    <next>
+                      <block type="controls_if" id="491" inline="false">
+                        <value name="IF0">
+                          <block type="sensor_button" id="561">
+                            <field name="OBJECT">ENTER</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_stop" id="577"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
 </xml>
