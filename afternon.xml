@@ -1,1 +1,9 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="35" x="174" y="18">
+    <next>
+      <block type="comment_comment" id="152">
+        <field name="TEXT">Hello world</field>
+      </block>
+    </next>
+  </block>
+</xml>
