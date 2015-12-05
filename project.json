@@ -1,0 +1,10 @@
+{
+    "name": "afternon",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "afternon.xml",
+    "author": "Maxtech08",
+    "minimum_firmware_version": 42
+}
