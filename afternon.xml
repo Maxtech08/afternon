@@ -23,9 +23,9 @@
                             <field name="OBJECT">ENTER</field>
                           </block>
                         </value>
-                        <next>
+                        <statement name="DO0">
                           <block type="movement_stop" id="577"></block>
-                        </next>
+                        </statement>
                       </block>
                     </next>
                   </block>
